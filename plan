@@ -1,0 +1,9 @@
+Have 3 things in mind -
+1. Creating a video uploading and playing platform.
+	2 dashboard - Admin and user
+	Admin - Uploads/Delets the video from platform, Add description etc.
+	User - Watched the video, can add comments on them
+	Microservice for validating the video - when it is uploaded, played by user, Need to have some token associated for validating the video
+	Commenting should be implementing for controlling bad words - No bad workds allowed - npm bad-words is there.
+1. Live streaming platform - thinking for only one streaming right now, not multiple streaming as of now
+	post this need to think of chat room using socket.io
