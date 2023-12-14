@@ -4,11 +4,11 @@ const fs = require('fs');
 
 const Video = require('../../models/Video');
 
-// TODO: Need t bring from configs
+// TODO: Need to add then in configs, removing it for now 
 const credentials = {
-	accessKeyId: 'AKIARS6WMJ2LLCN3HQFB',
-	secretAccessKey: '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',
-	region: 'us-east-1'
+	accessKeyId: '',
+	secretAccessKey: '',
+	region: ''
 }
 
 AWS.config.update(credentials);
